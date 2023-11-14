@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <title>СушиРядом - Оформление заказа</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="headerInner">
+          <a class="logo" href="">
+            <img src="../img/logo.svg" alt="logo" />
+          </a>
+
+          <ul>
+            <li><a href="#advantage">Почему мы?</a></li>
+            <li><a href="#catalog">Акции</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#delivery">Доставка</a></li>
+          </ul>
+
+          <a href="./assests/pages/cart.html" class="cart">
+            <img src="../img/cart.svg" alt="cart" />
+            <p class="cartPrice">8.356 ₽</p>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="cart">
+        <div class="container">
+          <div class="cartInner">
+            <div class="cartTitle">Корзина</div>
+            <div class="carts">
+              <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="../img/photo/image 4.png" alt="sushi" />
+                  </div>
+                  <div class="info">
+                    <div class="top">
+                      <h2 class="title">Калифорния</h2>
+                      <p class="desc">
+                        Икра Масаго, имитация краба, сливочный сыр, огурец, рис,
+                        нори
+                      </p>
+                    </div>
+                    <p class="height">120 г 4 шт</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="unit">136 ₽</h2>
+                  <div class="count">
+                    <button class="dec">
+                      <img src="../img/dec.svg" alt="dec" />
+                    </button>
+                    <p class="number">3</p>
+                    <button class="inc">
+                      <img src="../img/inc.svg" alt="inc" />
+                    </button>
+                  </div>
+                  <h2 class="price">480 ₽</h2>
+                  <button class="delete">
+                    <img src="../img/close.svg" alt="close" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="left">
+                  <div class="img">
+                    <img src="../img/photo/image 4.png" alt="sushi" />
+                  </div>
+                  <div class="info">
+                    <div class="top">
+                      <h2 class="title">Калифорния</h2>
+                      <p class="desc">
+                        Икра Масаго, имитация краба, сливочный сыр, огурец, рис,
+                        нори
+                      </p>
+                    </div>
+
+                    <p class="height">120 г 4 шт</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <h2 class="unit">140 ₽</h2>
+                  <div class="count">
+                    <button class="dec">
+                      <img src="../img/dec.svg" alt="dec" />
+                    </button>
+                    <p class="number">2</p>
+                    <button class="inc">
+                      <img src="../img/inc.svg" alt="inc" />
+                    </button>
+                  </div>
+                  <h2 class="price">280 ₽</h2>
+                  <button class="delete">
+                    <img src="../img/close.svg" alt="close" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="other">
+        <div class="container">
+          <div class="otherInner">
+            <div class="otherTitle">Не забудьте добавить</div>
+
+            <div class="otherCards">
+              <div class="otherCard">
+                <div class="img">
+                  <img src="../img/other/sauсe_1.png" alt="sauce" />
+                </div>
+                <h2 class="title">50 ₽</h2>
+                <p class="desc">Соевый соус</p>
+
+                <p class="height">100 гр</p>
+
+                <button class="add">Добавить</button>
+              </div>
+
+              <div class="otherCard">
+                <div class="img">
+                  <img src="../img/other/sauce_2.png" alt="sauce" />
+                </div>
+                <h2 class="title">35 ₽</h2>
+                <p class="desc">Имбирь</p>
+
+                <p class="height">30 гр</p>
+
+                <button class="add">Добавить</button>
+              </div>
+
+              <div class="otherCard">
+                <div class="img">
+                  <img src="../img/other/sauce_3.png" alt="sauce" />
+                </div>
+                <h2 class="title">15 ₽</h2>
+                <p class="desc">Васаби</p>
+
+                <p class="height">10 гр</p>
+
+                <button class="add">Добавить</button>
+              </div>
+
+              <div class="otherCard">
+                <div class="img">
+                  <img src="../img/other/sticks.png" alt="sticks" />
+                </div>
+                <h2 class="title">5 ₽</h2>
+                <p class="desc">Палочки</p>
+
+                <p class="height">1 шт</p>
+
+                <button class="add">Добавить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="checkout">
+        <div class="container">
+          <div class="checkoutInner">
+            <form action="" method="post" class="checkoutForm">
+              <div class="checkoutTitle">Оформление заказа</div>
+
+              <div class="deliveryType">
+                <div class="toggle">
+                  <div class="radioButton">
+                    <input type="radio" name="delivery" id="delivery" checked />
+                    <label for="delivery">Доставка</label>
+                  </div>
+                  <div class="radioButton">
+                    <input type="radio" name="delivery" id="pickup" />
+                    <label for="pickup">Самовывоз</label>
+                  </div>
+                </div>
+                <p class="title">Доставка 99 ₽</p>
+              </div>
+
+              <div class="change">
+                <p class="title">Укажите данные:</p>
+                <div class="delivery">
+                  <div class="group">
+                    <input type="text" placeholder="Ваш номер" />
+                    <input type="text" placeholder="Ваше имя" />
+                  </div>
+                  <input type="text" placeholder="Адрес доставки" />
+                  <input type="text" placeholder="Комментарий к заказу" />
+                </div>
+                <div class="pickup">
+                  <select name="" id="">
+                    <option value="">ул. Леконта, 1</option>
+                    <option value="">ул. Серова, 20</option>
+                    <option value="">ул. Ленина, 34</option>
+                  </select>
+                  <textarea placeholder="Комментарий к заказу"></textarea>
+                </div>
+              </div>
+
+              <div class="pay">
+                <p class="title">Оплата заказа:</p>
+                <div class="toggle">
+                  <div class="radioButton">
+                    <input type="radio" name="pay" id="cash" />
+                    <label for="cash">Наличные</label>
+                  </div>
+                  <div class="radioButton">
+                    <input type="radio" name="pay" id="cashless" checked />
+                    <label for="cashless">Банковская карта</label>
+                  </div>
+                </div>
+                <div class="promocode">
+                  <input type="text" placeholder="Промокод" />
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                    >
+                      <path
+                        d="M12.7333 24L5.1333 16.4L7.0333 14.5L12.7333 20.2L24.9666 7.96667L26.8666 9.86668L12.7333 24Z"
+                        fill="#93FC6E"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="error">
+                  <p class="success">промокод успешно применен</p>
+                  <p class="cancel">не удалось применить промокод</p>
+                </div>
+              </div>
+
+              <div class="check">
+                <div class="sum">
+                  <p class="title">Сумма товаров:</p>
+                  <p class="price">1950 ₽</p>
+                </div>
+                <div class="promocode">
+                  <p class="title">Промокод:</p>
+                  <p class="price">- 400 ₽</p>
+                </div>
+                <div class="img">
+                  <img src="../img/line.png" alt="line" />
+                </div>
+                <div class="totalSum">
+                  <p class="title">Итоговая сумма:</p>
+                  <p class="price">1450 ₽</p>
+                </div>
+                <div class="button">
+                  <button>Оформить заказ</button>
+                  <div class="imgBg">
+                    <img src="../img/pay.png" alt="pay" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
